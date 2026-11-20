@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rapport - ServiceDesk Plus leverantörsärenden.md",
+                "file": "CLAUDE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Rapport - ServiceDesk Plus leverantörsärenden"
+              "title": "CLAUDE"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rapport - ServiceDesk Plus leverantörsärenden.md",
+                "file": "CLAUDE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rapport - ServiceDesk Plus leverantörsärenden.md",
+                "file": "CLAUDE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rapport - ServiceDesk Plus leverantörsärenden.md",
+                "file": "CLAUDE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,7 +190,11 @@
   },
   "active": "11f45cc7686f4062",
   "lastOpenFiles": [
+    "docs/beslut.md",
     "CLAUDE.md",
-    "Rapport - ServiceDesk Plus leverantörsärenden.md"
+    "docs/uppgifter/01-api-rapport.md",
+    "docs/sdp-api-rapport.md",
+    "docs/uppgifter",
+    "docs"
   ]
 }

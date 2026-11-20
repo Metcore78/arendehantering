@@ -1,0 +1,2 @@
+Kartlägg ServiceDesk plus API för ärendehantering. 
+Skapa en rapport där ServiceDesk Plus förmåga för detta beskrivs och hänvisa förmågorna till ServiceDesk Plus API dokumentation. Utgå från vanliga användningsfall för den här typen av interaktion via ärenden som är vanliga i dessa scenarier. Viktigt är också att beskriva eventuella brister i ServiceDesk Plus förmåga att kunna hantera dessa scenarier, som annars skulle kunna vara förväntat. 
