@@ -401,6 +401,12 @@ Rekommenderad modell: **ett huvudärende** (eller ett problem) bär leverantörs
 4. **Status:** Inför statusen *Väntar på leverantör* (stoppad timer) och UDF för leverantör, externt ID, extern status och tidsstämplar.
 5. **Leverantörer utan API:** E-post från en dedikerad brevlåda per leverantör med fast ämnesformat (`[SDP ##<id>##] <ärende>`) och regler mot autosvarsloopar.
 
+> **Tillägg 2026-11-26:** Integrationslagret är skissat i [`integrationslager-skiss.md`](integrationslager-skiss.md), som en del av en plattform på Azure Integration Services. Skissen preciserar punkterna ovan på tre sätt:
+>
+> - Pollning efter anteckningar och bilagor görs av integrationslagret, inte med *Custom Schedules* i SDP (punkt 2, UC3, UC4).
+> - E-post till och från leverantörer utan API går via integrationslagrets brevlådor, inte via SDP:s e-posthantering (punkt 5).
+> - En gemensam integrationstekniker räcker, eftersom leverantörer aldrig anropar SDP direkt (jfr B5 och licenspunkten i 7.2).
+
 ### 7.2 Att verifiera i Organisation A:s installation
 
 Verifiera med instansens API-dokumentation under Admin → API / Developer Space, i en testmiljö:
