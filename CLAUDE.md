@@ -1,6 +1,7 @@
 # Ärendehanteringsystem
 
 # Instruktioner för Claude
+Utför uppgifterna nedan. Utgå från projektkontexten tillsammans med de arbete som gjorts tidigare (rapporter, dokumentation, kod etc.) och relevant research som behöver göras för att utföra uppgiften. Modifiera tidigare arbetet om det under utförande av en ny uppgift upptäcker felaktigheter eller ändrade förutsättningar från tidigare arbete. Om ändringar görs i tidigare arbete delge detta tydligt när uppgiften är slutförd.
 
 ## Hur uppgifter ges i detta repo
 - Uppgifter ges antingen direkt i prompten (webbgränssnittet) eller som
@@ -19,6 +20,7 @@
    det inte finns någon uppgift och avsluta.
 
 ## När en uppgift är klar
+- Arkivera uppgiften i mappen "uppgifter" som en markdown fil döpt enligt konventionen nedan. Sammanfatta hur uppgiften utfördes och hur resultatet av det arbetet sparats i projektet. Ta även med de ändringar som gjorts i tidigare arbete.
 - Flytta raden från Aktuell uppgift till Avslutade uppgifter och markera
   den (klar). Sätt Aktuell uppgift till `Ingen`.
 - För över bestående lärdomar till `docs/beslut.md`.
@@ -34,10 +36,10 @@ Integration mot ServiceDesk Plus (SDP) för där Organisation A ska byta ut sitt
 - Beslut och kända begränsningar finns i `docs/beslut.md`.
 
 ## Aktuell uppgift
-Ingen
+- Skissa på hur integrationslagret skulle se ut. Antag att integrationslagret kommer vara en del i en generell integrationsplattform baserad på Azure Integrations Service (AIS) som hanterar flera andra integrationer mot andra system (som inte är kopplade till ärendehantering) och som hanterar andra integrationsmönster än just detta. Utgå från en antagen AIS arkitektur, så som en AIS plattform vanligen är upplagd.
 
 ## Avslutade uppgifter
 - 01: API-rapport (klar) → `docs/uppgifter/01-api-rapport.md`
 
 ## Konventioner
-- Språk, kodstil, filnamn osv.
+- Döp slutförda uppgifter enligt: Löpnummer-BeskrivandeOrd-BeskrivandeOrd.md (ex: 02-Stubba-Integration.md), upptill 3 beskrivande ord.
