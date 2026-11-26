@@ -36,10 +36,11 @@ Integration mot ServiceDesk Plus (SDP) för där Organisation A ska byta ut sitt
 - Beslut och kända begränsningar finns i `docs/beslut.md`.
 
 ## Aktuell uppgift
-- Skissa på hur integrationslagret skulle se ut. Antag att integrationslagret kommer vara en del i en generell integrationsplattform baserad på Azure Integrations Service (AIS) som hanterar flera andra integrationer mot andra system (som inte är kopplade till ärendehantering) och som hanterar andra integrationsmönster än just detta. Utgå från en antagen AIS arkitektur, så som en AIS plattform vanligen är upplagd.
+Ingen
 
 ## Avslutade uppgifter
 - 01: API-rapport (klar) → `docs/uppgifter/01-api-rapport.md`
+- 02: Skissa på hur integrationslagret skulle se ut. Antag att integrationslagret kommer vara en del i en generell integrationsplattform baserad på Azure Integrations Service (AIS) som hanterar flera andra integrationer mot andra system (som inte är kopplade till ärendehantering) och som hanterar andra integrationsmönster än just detta. Utgå från en antagen AIS arkitektur, så som en AIS plattform vanligen är upplagd. (klar) → `docs/uppgifter/02-Skiss-Integrationslager.md`, resultat i `docs/integrationslager-skiss.md`
 
 ## Konventioner
 - Döp slutförda uppgifter enligt: Löpnummer-BeskrivandeOrd-BeskrivandeOrd.md (ex: 02-Stubba-Integration.md), upptill 3 beskrivande ord.
